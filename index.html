@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CHÂN — Contemporary Footwear Atelier. Precision athletic runners, minimalist street sneakers, and handcrafted leather silhouettes.">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>CHÂN Footwear | Atelier Collection</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23111111'/><path d='M8 22L16 6L20 14L26 8L22 24H10L8 22Z' fill='%23ffffff'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Space Grotesk, Cinzel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=20261004_1850">
+</head>
+<body>
+  <!-- Editorial Top Bar -->
+  <div class="top-announcement">
+    <div class="top-announcement-inner">
+      <div class="top-left">
+        <span class="top-bullet live-pulse"></span>
+        <span>ATELIER ARCHIVE // SPRING 2026 DISPATCH</span>
+      </div>
+      <div class="top-center">
+        <span>COMPLIMENTARY WORLDWIDE COURIER ON ORDERS OVER $150</span>
+      </div>
+      <div class="top-right">
+        <a href="#help" id="topHelp">Client Concierge</a>
+        <span class="sep">/</span>
+        <a href="#returns" id="topReturns">Shipping & Returns</a>
+        <span class="sep">/</span>
+        <span class="currency-tag">USD ($)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="editorial-header" id="siteHeader">
+    <div class="header-inner">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-identity" aria-label="CHÂN Home">
+        <span class="brand-monogram">CHÂN</span>
+        <span class="brand-subline">CONTEMPORARY FOOTWEAR ATELIER</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#catalog" class="nav-item active" data-filter-nav="all">Collection</a></li>
+          <li><a href="#catalog" class="nav-item" data-filter-nav="running">Running Series</a></li>
+          <li><a href="#catalog" class="nav-item" data-filter-nav="street">Lifestyle</a></li>
+          <li><a href="#catalog" class="nav-item" data-filter-nav="formal">Formal Leather</a></li>
+          <li><a href="#craft" class="nav-item">Craft & Materials</a></li>
+          <li><a href="#sizeguide" class="nav-item">Fit Architecture</a></li>
+          <li><a href="#about" class="nav-item">The Atelier</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-utilities">
+        <!-- Minimal Search Box -->
+        <div class="search-unit">
+          <input type="text" id="headerSearchInput" placeholder="Search archive..." autocomplete="off">
+          <button class="search-btn" id="headerSearchBtn" aria-label="Search">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Wishlist -->
+        <button class="utility-btn" id="wishlistTriggerBtn" aria-label="Saved Wishlist" title="Saved Wishlist">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="utility-badge" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Bag -->
+        <button class="utility-btn bag-btn" id="cartTriggerBtn" aria-label="Shopping Bag" title="Shopping Bag">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="utility-badge" id="cartCount">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-burger-btn" id="mobileMenuBtn" aria-label="Open Navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileNavDrawer">
+      <ul class="mobile-menu">
+        <li><a href="#catalog" class="mobile-link" data-filter-nav="all">All Footwear Collection</a></li>
+        <li><a href="#catalog" class="mobile-link" data-filter-nav="running">Running Silhouettes</a></li>
+        <li><a href="#catalog" class="mobile-link" data-filter-nav="street">Lifestyle & Low-Top</a></li>
+        <li><a href="#catalog" class="mobile-link" data-filter-nav="formal">Formal Leather</a></li>
+        <li><a href="#craft" class="mobile-link">Craft & Materials</a></li>
+        <li><a href="#sizeguide" class="mobile-link">Size & Fit Guide</a></li>
+        <li><a href="#about" class="mobile-link">About The Atelier</a></li>
+      </ul>
+      <div class="mobile-footer-strip">
+        <span>CHÂN FOOTWEAR ATELIER</span>
+        <span>© 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO LOOKBOOK SECTION -->
+    <section class="hero-lookbook" id="hero">
+      <div class="hero-grid">
+        <!-- Left: Product Typography & Direct Actions -->
+        <div class="hero-text-col">
+          <div class="hero-meta-strip">
+            <span class="editorial-tag">COLLECTION NO. 01</span>
+            <span class="editorial-divider">/</span>
+            <span class="editorial-edition">RUNWAY ARCHIVE</span>
+            <span class="editorial-divider">/</span>
+            <span class="editorial-live-badge"><span class="badge-dot"></span>IN PRODUCTION</span>
+          </div>
+
+          <h1 class="hero-headline" id="heroTitle">Solar Kinetic Track Spike</h1>
+          <span class="hero-subheading">FULL-LENGTH 3K CARBON BLADE & HIGH-OCTANE MESH</span>
+
+          <p class="hero-lead" id="heroDesc">
+            High-octane road racing silhouette featuring energy-amplifying sole geometry, metallic TPU overlays, and ultra-breathable open mesh.
+          </p>
+
+          <!-- Technical Highlights Ribbon -->
+          <div class="hero-tech-pills">
+            <span class="tech-pill">MASS: 192G</span>
+            <span class="tech-pill">CHASSIS: 3K CARBON</span>
+            <span class="tech-pill">OFFSET: 6.0MM DROP</span>
+            <span class="tech-pill">SOLE: ATELIER BLADE</span>
+          </div>
+
+          <div class="hero-pricing-box">
+            <span class="price-figure" id="heroPrice">$225.00</span>
+            <span class="price-qualifier">Complimentary express air courier included</span>
+          </div>
+
+          <!-- Colorway Palette Selector -->
+          <div class="hero-selector-section">
+            <div class="selector-header">
+              <span class="selector-title">SELECT COLORWAY:</span>
+              <span class="selector-value" id="heroColorLabel">01 SOLAR FLAME</span>
+            </div>
+            <div class="colorway-strip" id="heroColorwayContainer">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Size Grid Selector -->
+          <div class="hero-selector-section">
+            <div class="selector-header">
+              <span class="selector-title">SELECT SIZE (US MEN):</span>
+              <a href="#sizeguide" class="editorial-link">Fit Architecture & Size Chart →</a>
+            </div>
+            <div class="size-grid" id="heroSizeGrid">
+              <button class="size-cell" data-size="US 8">8</button>
+              <button class="size-cell" data-size="US 8.5">8.5</button>
+              <button class="size-cell active" data-size="US 9">9</button>
+              <button class="size-cell" data-size="US 9.5">9.5</button>
+              <button class="size-cell" data-size="US 10">10</button>
+              <button class="size-cell" data-size="US 10.5">10.5</button>
+              <button class="size-cell" data-size="US 11">11</button>
+              <button class="size-cell" data-size="US 12">12</button>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <button class="btn btn-black" id="heroAddToCartBtn">
+              <span>ADD TO BAG</span>
+              <span class="cta-arrow">→</span>
+            </button>
+            <button class="btn btn-outline" id="heroWishlistBtn">SAVE TO WISHLIST</button>
+          </div>
+
+          <!-- Technical Spec Hairline Rows -->
+          <div class="technical-specs-table">
+            <div class="tech-row">
+              <span class="tech-label">NET MASS</span>
+              <span class="tech-data" id="heroWeight">192 grams (size US 9)</span>
+            </div>
+            <div class="tech-row">
+              <span class="tech-label">PROPULSION BLADE</span>
+              <span class="tech-data">Full-length 3K Toray carbon composite</span>
+            </div>
+            <div class="tech-row">
+              <span class="tech-label">RESPONSIVE MATRIX</span>
+              <span class="tech-data">Nitrogen-infused supercritical elastomer</span>
+            </div>
+            <div class="tech-row">
+              <span class="tech-label">PROVENANCE & CRAFT</span>
+              <span class="tech-data">Engineered in Milan • Handcrafted in Porto</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Editorial Image Exhibition Frame -->
+        <div class="hero-visual-col">
+          <div class="exhibition-frame">
+            <!-- Architectural Corner Crosshairs -->
+            <span class="frame-crosshair ch-tl">+</span>
+            <span class="frame-crosshair ch-tr">+</span>
+            <span class="frame-crosshair ch-bl">+</span>
+            <span class="frame-crosshair ch-br">+</span>
+
+            <div class="frame-label-top">
+              <span class="frame-index">FIG. 01 / LOOKBOOK SPECIFICATION</span>
+              <span class="frame-status">● VERIFIED IN STOCK</span>
+            </div>
+
+            <div class="frame-canvas">
+              <img src="assets/images/shoe-10-orange-speedster.webp" alt="Solar Kinetic Track Spike - Solar Flame" id="heroShoeImg" class="exhibition-image">
+              
+              <!-- Hotspot Markers -->
+              <div class="canvas-hotspot hs-carbon" title="3K Carbon Propulsion Plate">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-dot">+</span>
+                <span class="hotspot-tag">3K Carbon Blade</span>
+              </div>
+              <div class="canvas-hotspot hs-mesh" title="Bio-Adaptive Monofilament Upper">
+                <span class="hotspot-pulse"></span>
+                <span class="hotspot-dot">+</span>
+                <span class="hotspot-tag">Matrix Monofilament Knit</span>
+              </div>
+            </div>
+
+            <div class="frame-label-bottom">
+              <span class="frame-serial" id="heroSerial">REF: ART-SOLAR-010</span>
+              <span class="frame-hint">45.46° N, 9.19° E • MILANO ATELIER</span>
+            </div>
+
+            <!-- Interactive Multi-Colorway Exhibition Thumbnails -->
+            <div class="hero-thumb-strip" id="heroThumbStrip">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SILENT RUNNING EDITORIAL MARQUEE -->
+    <div class="editorial-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-text">CHÂN FOOTWEAR ATELIER</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">AUTUMN / WINTER 2026 ARCHIVE</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">3K CARBON PROPULSION COMPOSITES</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">COMPLIMENTARY WORLDWIDE COURIER OVER $150</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">30-DAY RISK-FREE ROAD WEAR TRIAL</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">ZERO RESIDUAL SYNTHETIC SOLVENTS</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">HANDCRAFTED IN PORTO, PORTUGAL</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">CHÂN FOOTWEAR ATELIER</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">AUTUMN / WINTER 2026 ARCHIVE</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">3K CARBON PROPULSION COMPOSITES</span>
+        <span class="marquee-sep">✦</span>
+        <span class="marquee-text">COMPLIMENTARY WORLDWIDE COURIER OVER $150</span>
+        <span class="marquee-sep">✦</span>
+      </div>
+    </div>
+
+    <!-- EDITORIAL BRAND VALUES BANNER -->
+    <section class="atelier-values">
+      <div class="values-container">
+        <div class="value-item">
+          <span class="value-index">01</span>
+          <div class="value-text">
+            <h4>Global Express Delivery</h4>
+            <p>Dispatched via priority courier with tracking within 24 hours.</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <span class="value-index">02</span>
+          <div class="value-text">
+            <h4>30-Day Wear Guarantee</h4>
+            <p>Test on the road. Return in any condition for a complete refund.</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <span class="value-index">03</span>
+          <div class="value-text">
+            <h4>Direct Studio Authenticity</h4>
+            <p>Serial-numbered footwear crafted under strict quality control.</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <span class="value-index">04</span>
+          <div class="value-text">
+            <h4>Responsible Craft</h4>
+            <p>Solvent-free assembly and 100% recyclable studio packaging.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT ARCHIVE / CATALOG -->
+    <section class="archive-section" id="catalog">
+      <div class="archive-container">
+        <!-- Section Header -->
+        <div class="archive-header">
+          <div class="archive-header-left">
+            <span class="archive-kicker">CURATED FOOTWEAR ARCHIVE</span>
+            <h2 class="archive-title">All Silhouettes</h2>
+          </div>
+          <div class="archive-header-right">
+            <span class="archive-count" id="catalogCount">16 SILHOUETTES</span>
+          </div>
+        </div>
+
+        <!-- Filter & Sorting Bar -->
+        <div class="archive-filter-bar">
+          <div class="filter-tab-row" id="categoryTabs">
+            <button class="filter-pill active" data-filter="all">All (16)</button>
+            <button class="filter-pill new-pill" data-filter="new">★ New Releases (8)</button>
+            <button class="filter-pill" data-filter="running">Running (5)</button>
+            <button class="filter-pill" data-filter="street">Lifestyle (4)</button>
+            <button class="filter-pill" data-filter="formal">Formal (4)</button>
+            <button class="filter-pill" data-filter="art">Limited Series (2)</button>
+            <button class="filter-pill" data-filter="kids">Junior (1)</button>
+          </div>
+
+          <div class="filter-right-controls">
+            <!-- View Mode Switcher -->
+            <div class="view-mode-toggle" id="viewModeToggle">
+              <button class="view-btn active" id="viewGridBtn" title="4-Column Grid View" aria-label="4-Column Grid View">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                  <rect x="1" y="1" width="6" height="6"/>
+                  <rect x="9" y="1" width="6" height="6"/>
+                  <rect x="1" y="9" width="6" height="6"/>
+                  <rect x="9" y="9" width="6" height="6"/>
+                </svg>
+                <span>GRID</span>
+              </button>
+              <button class="view-btn" id="viewLookbookBtn" title="2-Column Lookbook View" aria-label="2-Column Lookbook View">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                  <rect x="1" y="1" width="14" height="6"/>
+                  <rect x="1" y="9" width="14" height="6"/>
+                </svg>
+                <span>LOOKBOOK</span>
+              </button>
+            </div>
+
+            <div class="sort-wrapper">
+              <label for="catalogSortSelect" class="sort-heading">SORT:</label>
+              <select id="catalogSortSelect" class="editorial-select">
+                <option value="featured">Featured Archive</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="name">Alphabetical</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="archive-grid" id="productsGrid">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Empty Filter State -->
+        <div class="empty-archive" id="emptyResults" style="display: none;">
+          <h3>No silhouettes found</h3>
+          <p>Please clear your search query or reset category filter.</p>
+          <button class="btn btn-outline" id="resetCatalogBtn">RESET ALL FILTERS</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CRAFT & MATERIALITY SECTION -->
+    <section class="craft-section" id="craft">
+      <div class="craft-container">
+        <div class="craft-header">
+          <span class="archive-kicker">STUDIO STANDARDS</span>
+          <h2 class="archive-title">Materiality & Construction</h2>
+          <p class="craft-lead">
+            Every CHÂN shoe combines high-performance mechanical materials with deliberate minimalist geometry.
+          </p>
+        </div>
+
+        <div class="craft-grid">
+          <!-- Pillar 1 -->
+          <div class="craft-card">
+            <div class="craft-card-top">
+              <span class="craft-num">01</span>
+              <span class="craft-tag">PROPULSION</span>
+            </div>
+            <h3 class="craft-heading">Curved Carbon Composite Plate</h3>
+            <p class="craft-body">
+              A high-modulus 3K carbon fiber spoon plate sits between dual foam layers, stiffening on impact and delivering spring-loaded energy at toe-off.
+            </p>
+            <div class="craft-line"></div>
+            <span class="craft-spec">Material: Toray Carbon Fiber Composite</span>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="craft-card">
+            <div class="craft-card-top">
+              <span class="craft-num">02</span>
+              <span class="craft-tag">CUSHIONING</span>
+            </div>
+            <h3 class="craft-heading">Dual-Density Micro-Cellular Foam</h3>
+            <p class="craft-body">
+              Nitrogen-injected elastomer provides cloud-like shock dampening without sinking, resisting compression breakdown across 800+ kilometers.
+            </p>
+            <div class="craft-line"></div>
+            <span class="craft-spec">Density: 0.16 g/cm³ Supercritical Foam</span>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="craft-card">
+            <div class="craft-card-top">
+              <span class="craft-num">03</span>
+              <span class="craft-tag">TRACTION</span>
+            </div>
+            <h3 class="craft-heading">Liquid Rubber Hex Compound</h3>
+            <p class="craft-body">
+              Anatomically siped tread channels surface moisture and maintains unyielding grip across polished stone, wet asphalt, and athletic surfaces.
+            </p>
+            <div class="craft-line"></div>
+            <span class="craft-spec">Friction Index: 0.92 Wet Road Compound</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIZE & FIT CALCULATOR -->
+    <section class="fit-guide-section" id="sizeguide">
+      <div class="fit-container">
+        <div class="fit-header">
+          <span class="archive-kicker">PRECISION MEASUREMENT</span>
+          <h2 class="archive-title">Size & Fit Architecture</h2>
+          <p class="craft-lead">Calculate your exact size or compare international size standards.</p>
+        </div>
+
+        <div class="fit-layout">
+          <!-- Left: Conversion Table -->
+          <div class="fit-table-wrap">
+            <h3 class="fit-subheading">International Conversion Chart</h3>
+            <div class="table-scroll">
+              <table class="editorial-table">
+                <thead>
+                  <tr>
+                    <th>US MEN</th>
+                    <th>US WOMEN</th>
+                    <th>UK</th>
+                    <th>EU</th>
+                    <th>FOOT LENGTH</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>7.0</td><td>8.5</td><td>6.0</td><td>40.0</td><td>25.0 cm</td></tr>
+                  <tr><td>8.0</td><td>9.5</td><td>7.0</td><td>41.0</td><td>26.0 cm</td></tr>
+                  <tr><td>8.5</td><td>10.0</td><td>7.5</td><td>42.0</td><td>26.5 cm</td></tr>
+                  <tr class="selected-row"><td>9.0</td><td>10.5</td><td>8.0</td><td>42.5</td><td>27.0 cm</td></tr>
+                  <tr><td>9.5</td><td>11.0</td><td>8.5</td><td>43.0</td><td>27.5 cm</td></tr>
+                  <tr><td>10.0</td><td>11.5</td><td>9.0</td><td>44.0</td><td>28.0 cm</td></tr>
+                  <tr><td>10.5</td><td>12.0</td><td>9.5</td><td>44.5</td><td>28.5 cm</td></tr>
+                  <tr><td>11.0</td><td>12.5</td><td>10.0</td><td>45.0</td><td>29.0 cm</td></tr>
+                  <tr><td>12.0</td><td>13.5</td><td>11.0</td><td>46.0</td><td>30.0 cm</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right: Calculator -->
+          <div class="fit-calc-wrap">
+            <h3 class="fit-subheading">Foot Measurement Calculator</h3>
+            <p class="calc-guide-text">Measure from heel to the tip of your longest toe while standing upright.</p>
+
+            <div class="calc-input-row">
+              <label for="calcLengthInput">Foot Length in Centimeters:</label>
+              <div class="measure-input-box">
+                <input type="number" id="calcLengthInput" min="22" max="32" step="0.5" value="27.0">
+                <span class="unit-label">CM</span>
+              </div>
+            </div>
+
+            <div class="calc-input-row">
+              <label>Fit Silhouette Preference:</label>
+              <div class="fit-choice-row">
+                <button class="fit-opt-btn" data-fit="snug">Snug Track Fit</button>
+                <button class="fit-opt-btn active" data-fit="regular">Standard True-to-Size</button>
+                <button class="fit-opt-btn" data-fit="wide">Relaxed Wide Fit</button>
+              </div>
+            </div>
+
+            <div class="calc-recommendation-card">
+              <span class="rec-title">CALCULATED RECOMMENDATION</span>
+              <div class="rec-numbers">
+                <div class="rec-col">
+                  <span class="rec-val" id="recUS">US 9.0</span>
+                  <span class="rec-sub">US Men</span>
+                </div>
+                <div class="rec-divider"></div>
+                <div class="rec-col">
+                  <span class="rec-val" id="recEU">EU 42.5</span>
+                  <span class="rec-sub">European</span>
+                </div>
+                <div class="rec-divider"></div>
+                <div class="rec-col">
+                  <span class="rec-val" id="recUK">UK 8.0</span>
+                  <span class="rec-sub">United Kingdom</span>
+                </div>
+              </div>
+              <p class="rec-note-text" id="recNote">Fits true to size with 8mm of expansion allowance in the forefoot.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT THE ATELIER -->
+    <section class="about-atelier-section" id="about">
+      <div class="about-inner">
+        <div class="about-editorial-grid">
+          <div class="about-text-content">
+            <span class="archive-kicker">BRAND PHILOSOPHY</span>
+            <h2 class="archive-title">Form in Service of Motion</h2>
+            <p class="about-p">
+              CHÂN was conceived at the intersection of architectural reduction and athletic engineering. We reject seasonal gimmickry in favor of enduring silhouettes that function with absolute clarity.
+            </p>
+            <p class="about-p">
+              Each edition is crafted from sustainably certified technical yarns, surgical-grade composites, and responsibly tanned leathers. Every prototype undergoes extensive field testing before release.
+            </p>
+            <div class="atelier-stat-strip">
+              <div class="stat-block">
+                <span class="stat-big">100%</span>
+                <span class="stat-desc">Studio Verified Quality</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-big">30-Day</span>
+                <span class="stat-desc">Risk-Free Road Test</span>
+              </div>
+              <div class="stat-block">
+                <span class="stat-big">Direct</span>
+                <span class="stat-desc">Atelier to Client Dispatch</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-photo-wrapper">
+            <div class="editorial-mat">
+              <img src="assets/images/shoe-01-grey.png" alt="Phantom Running Shoe Craftsmanship" class="about-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL NEWSLETTER -->
+    <section class="newsletter-zone">
+      <div class="newsletter-inner">
+        <span class="archive-kicker">DISPATCH FREQUENCY</span>
+        <h3 class="newsletter-headline">Join The Atelier Register</h3>
+        <p class="newsletter-subline">Receive private release notifications, restock alerts, and studio lookbook releases.</p>
+        <form class="clean-form" id="newsletterForm">
+          <div class="form-horizontal">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+            <button type="submit" class="btn btn-black">SUBSCRIBE</button>
+          </div>
+          <span class="form-terms">Zero marketing spam. Unsubscribe at any time with one click.</span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- CART SLIDE-OVER DRAWER -->
+  <div class="drawer-curtain" id="cartOverlay"></div>
+  <aside class="slide-drawer" id="cartDrawer" aria-label="Shopping Bag">
+    <div class="drawer-header-row">
+      <h3>SHOPPING BAG (<span id="cartDrawerCount">0</span>)</h3>
+      <button class="drawer-close" id="closeCartBtn" aria-label="Close bag">×</button>
+    </div>
+
+    <!-- Free Shipping Progress -->
+    <div class="free-shipping-indicator" id="shippingNotice">
+      <p id="shippingNoticeText">Add $150.00 more for complimentary express delivery.</p>
+      <div class="shipping-meter">
+        <div class="shipping-meter-fill" id="shippingBarFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Items List -->
+    <div class="drawer-body-list" id="cartItemsList">
+      <!-- Populated dynamically via JS -->
+    </div>
+
+    <!-- Empty Bag State -->
+    <div class="drawer-empty-view" id="cartEmptyState">
+      <p class="empty-view-text">Your shopping bag is currently empty.</p>
+      <button class="btn btn-black" id="cartShopNowBtn">EXPLORE COLLECTION</button>
+    </div>
+
+    <!-- Cart Footer & Calculation -->
+    <div class="drawer-footer-card" id="cartDrawerFooter">
+      <div class="discount-entry">
+        <input type="text" id="promoInput" placeholder="Discount Code (e.g. WELCOME10)">
+        <button class="btn btn-outline" id="applyPromoBtn">APPLY</button>
+      </div>
+      <div class="promo-feedback-note" id="promoFeedback"></div>
+
+      <div class="breakdown-table">
+        <div class="breakdown-row">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">$0.00</span>
+        </div>
+        <div class="breakdown-row discount-highlight" id="cartDiscountRow" style="display: none;">
+          <span>Discount (10%)</span>
+          <span id="cartDiscount">-$0.00</span>
+        </div>
+        <div class="breakdown-row">
+          <span>Express Courier</span>
+          <span id="cartShipping">Calculated</span>
+        </div>
+        <div class="breakdown-row total-highlight">
+          <span>Estimated Total</span>
+          <span id="cartTotal">$0.00</span>
+        </div>
+      </div>
+
+      <button class="btn btn-black full-width" id="checkoutBtn">PROCEED TO SECURE CHECKOUT</button>
+      <span class="security-caption">256-Bit Encrypted Atelier Checkout</span>
+    </div>
+  </aside>
+
+  <!-- WISHLIST DRAWER -->
+  <div class="drawer-curtain" id="wishlistOverlay"></div>
+  <aside class="slide-drawer" id="wishlistDrawer" aria-label="Saved Wishlist">
+    <div class="drawer-header-row">
+      <h3>SAVED WISHLIST (<span id="wishlistDrawerCount">0</span>)</h3>
+      <button class="drawer-close" id="closeWishlistBtn" aria-label="Close wishlist">×</button>
+    </div>
+
+    <div class="drawer-body-list" id="wishlistItemsList">
+      <!-- Populated via JS -->
+    </div>
+
+    <div class="drawer-empty-view" id="wishlistEmptyState">
+      <p class="empty-view-text">You have no items saved to your wishlist.</p>
+      <button class="btn btn-black" id="wishlistShopNowBtn">VIEW ARCHIVE</button>
+    </div>
+  </aside>
+
+  <!-- COMPREHENSIVE PRODUCT DETAILS VIEW (E-COMMERCE EDITORIAL MODAL) -->
+  <div class="product-details-backdrop" id="productDetailsModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="product-details-container">
+      <!-- Top Sticky Navigation Bar -->
+      <div class="pd-top-bar">
+        <button class="pd-back-btn" id="pdBackBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span>Back to Collection</span>
+        </button>
+        <div class="pd-breadcrumbs" id="pdBreadcrumbs">
+          <span>Home</span> <span class="bc-sep">/</span> <span>Footwear</span> <span class="bc-sep">/</span> <span id="pdCrumbCat">Running</span> <span class="bc-sep">/</span> <strong id="pdCrumbTitle">Product Name</strong>
+        </div>
+        <div class="pd-top-actions">
+          <button class="pd-icon-btn" id="pdWishlistBtn" title="Save to Wishlist" aria-label="Save to Wishlist">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </button>
+          <button class="pd-icon-btn" id="pdShareBtn" title="Copy Link" aria-label="Share">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="5" r="3"></circle>
+              <circle cx="6" cy="12" r="3"></circle>
+              <circle cx="18" cy="19" r="3"></circle>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+            </svg>
+          </button>
+          <button class="pd-close-btn" id="closeProductDetailsBtn" aria-label="Close Product Details">×</button>
+        </div>
+      </div>
+
+      <!-- Main Product Showcase Grid -->
+      <div class="pd-main-grid">
+        <!-- Left: Image Gallery & Visual Banners -->
+        <div class="pd-gallery-section">
+          <div class="pd-gallery-layout">
+            <!-- Multi-angle Thumbnails -->
+            <div class="pd-thumb-list" id="pdThumbList">
+              <!-- Dynamically populated -->
+            </div>
+            <!-- Main High-Res Showcase Stage -->
+            <div class="pd-main-stage">
+              <span class="pd-badge-floating" id="pdFloatingBadge">NEW RELEASE</span>
+              <img src="" alt="" id="pdMainImg" class="pd-stage-image">
+              <div class="pd-brand-seal">
+                <span class="seal-icon">✦</span>
+                <span class="seal-text">ATELIER VERIFIED ORIGINAL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extra Visual Highlight Banners -->
+          <div class="pd-extra-banners">
+            <div class="pd-fit-banner">
+              <div class="banner-badge">FIT ARCHITECTURE</div>
+              <h4>Precision Anatomical Lockdown</h4>
+              <p>Engineered for an exact 1:1 true-to-size contour with adaptive forefoot expansion.</p>
+            </div>
+            <div class="pd-craft-banner">
+              <div class="banner-badge">STUDIO ASSURANCE</div>
+              <h4>Direct Atelier Priority Courier</h4>
+              <p>Dispatched with tracking in 24 hours. Includes 30-day risk-free road wear trial.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Information, Pricing, Size, Actions & Specs -->
+        <div class="pd-info-section">
+          <div class="pd-brand-header">
+            <span class="pd-brand-name">CHÂN CONTEMPORARY FOOTWEAR</span>
+            <span class="pd-art-code" id="pdArtCode">ART. CHN-010</span>
+          </div>
+
+          <h1 class="pd-title" id="pdTitle">Product Title</h1>
+
+          <!-- Ratings & Review Count -->
+          <div class="pd-rating-strip" id="pdRatingStrip">
+            <span class="pd-rating-badge" id="pdRatingVal">4.8 ★</span>
+            <a href="#pdReviewsSection" class="pd-rating-count" id="pdRatingText">820 Ratings & 86 Reviews</a>
+            <span class="pd-verified-seller">✓ Verified Atelier Authenticity</span>
+          </div>
+
+          <!-- Price & Discount Block -->
+          <div class="pd-pricing-card">
+            <div class="pd-deal-badge" id="pdDealTag">Special Atelier Release</div>
+            <div class="pd-price-row">
+              <span class="pd-discount-percent" id="pdDiscountPercent">↓ 20% OFF</span>
+              <span class="pd-strike-price" id="pdOldPrice">$260.00</span>
+              <span class="pd-current-price" id="pdPrice">$225.00</span>
+            </div>
+            <span class="pd-tax-note">Inclusive of all international freight, customs clearance & duties</span>
+          </div>
+
+          <!-- Available Promotions Box -->
+          <div class="pd-offers-box">
+            <div class="pd-offer-header">
+              <span class="offer-icon">🏷️</span>
+              <strong>Atelier Offers & Complimentary Services</strong>
+            </div>
+            <ul class="pd-offers-list">
+              <li><strong>Worldwide Air Courier:</strong> Complimentary express tracking on this order.</li>
+              <li><strong>Client Privilege:</strong> Apply promo code <span class="promo-pill">WELCOME10</span> for 10% off at checkout.</li>
+              <li><strong>Wear Assurance:</strong> 30-Day risk-free trial. Return in any condition for 100% refund.</li>
+            </ul>
+          </div>
+
+          <!-- Colorway Picker -->
+          <div class="pd-colorway-block">
+            <div class="pd-colorway-header">
+              <span>Selected Color:</span>
+              <strong id="pdSelectedColorName">Solar Flame Orange</strong>
+            </div>
+            <div class="pd-color-swatches" id="pdColorSwatches">
+              <!-- Dynamically populated swatches -->
+            </div>
+          </div>
+
+          <!-- Size Selector with Size Chart -->
+          <div class="pd-size-block">
+            <div class="pd-size-header">
+              <span>Select Size (US Men):</span>
+              <button class="pd-size-guide-btn" id="pdSizeGuideBtn">Size Chart & Guide →</button>
+            </div>
+            <div class="pd-size-grid" id="pdSizeGrid">
+              <!-- Dynamically populated size buttons -->
+            </div>
+          </div>
+
+          <!-- Delivery Checker -->
+          <div class="pd-delivery-checker">
+            <div class="delivery-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+              <span>Delivery & Transit Estimate:</span>
+            </div>
+            <div class="delivery-input-group">
+              <input type="text" id="pdZipInput" placeholder="Enter Zip / Postal Code" maxlength="10">
+              <button type="button" id="pdCheckZipBtn">CHECK</button>
+            </div>
+            <div class="delivery-result" id="pdDeliveryResult">
+              ✓ Delivery by <strong>Wednesday, 2 PM</strong> | Free Priority Air Dispatch
+            </div>
+          </div>
+
+          <!-- Primary CTAs: ADD TO CART & BUY NOW -->
+          <div class="pd-cta-buttons">
+            <button class="pd-btn-cart" id="pdAddToCartBtn">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span>ADD TO CART</span>
+            </button>
+            <button class="pd-btn-buy" id="pdBuyNowBtn">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              <span id="pdBuyNowText">BUY NOW</span>
+            </button>
+          </div>
+
+          <!-- Product Overview Description -->
+          <div class="pd-section-card">
+            <h3>Product Overview</h3>
+            <p class="pd-narrative-text" id="pdNarrative">Detailed description.</p>
+          </div>
+
+          <!-- Technical Specifications Table (Flipkart style) -->
+          <div class="pd-section-card">
+            <h3>Technical Specifications</h3>
+            <table class="pd-specs-table" id="pdSpecsTable">
+              <!-- Dynamically populated specs -->
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- RATINGS & REVIEWS SECTION -->
+      <section class="pd-reviews-section" id="pdReviewsSection">
+        <div class="pd-reviews-header">
+          <div>
+            <h2 class="pd-section-heading">Ratings & Customer Reviews</h2>
+            <p class="pd-section-sub">Verified feedback from international runners and atelier collectors.</p>
+          </div>
+          <button class="btn btn-outline" id="pdWriteReviewBtn">✍ WRITE A REVIEW</button>
+        </div>
+
+        <div class="pd-ratings-summary-row">
+          <!-- Overall Score Card -->
+          <div class="pd-overall-rating-card">
+            <div class="pd-big-score" id="pdScoreNum">4.8</div>
+            <div class="pd-score-stars" id="pdScoreStars">★★★★★</div>
+            <div class="pd-score-sub" id="pdScoreSub">Based on 820 verified ratings</div>
+            <div class="pd-recommend-rate">94% of purchasers recommend this silhouette</div>
+          </div>
+
+          <!-- Star Breakdown Bars -->
+          <div class="pd-star-breakdown" id="pdStarBars">
+            <!-- Dynamically populated 5, 4, 3, 2, 1 star bars -->
+          </div>
+        </div>
+
+        <!-- Write Review Collapsible Form -->
+        <div class="pd-write-form-container" id="pdWriteFormBox" style="display: none;">
+          <h3 class="write-form-title">Submit Your Verified Review</h3>
+          <form id="pdNewReviewForm">
+            <div class="form-row-split">
+              <div class="form-group">
+                <label for="revAuthor">Your Name</label>
+                <input type="text" id="revAuthor" placeholder="e.g. Elena Rostova" required>
+              </div>
+              <div class="form-group">
+                <label for="revStars">Star Rating</label>
+                <select id="revStars" class="editorial-select">
+                  <option value="5">★★★★★ (5 Stars - Exceptional)</option>
+                  <option value="4">★★★★☆ (4 Stars - Highly Recommended)</option>
+                  <option value="3">★★★☆☆ (3 Stars - Average)</option>
+                  <option value="2">★★☆☆☆ (2 Stars - Below Expectation)</option>
+                  <option value="1">★☆☆☆☆ (1 Star - Poor)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="revTitle">Review Headline</label>
+              <input type="text" id="revTitle" placeholder="e.g. Incredibly responsive propulsion & perfect fit" required>
+            </div>
+            <div class="form-group">
+              <label for="revComment">Your Detailed Experience</label>
+              <textarea id="revComment" rows="3" placeholder="Share your experience regarding comfort, road performance, sizing, and materials..." required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn btn-outline" id="cancelReviewBtn">Cancel</button>
+              <button type="submit" class="btn btn-black">SUBMIT REVIEW</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Customer Reviews List -->
+        <div class="pd-reviews-list" id="pdReviewsList">
+          <!-- Dynamically populated customer review cards -->
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- CHECKOUT SUCCESS MODAL -->
+  <div class="editorial-modal-backdrop" id="checkoutModal">
+    <div class="editorial-modal-card confirmation-modal">
+      <div class="confirmation-badge">✓</div>
+      <h2 class="modal-product-title">Order Confirmed</h2>
+      <p class="conf-order-num">Reference: <strong id="orderIdDisplay">#CHN-88219</strong></p>
+      <p class="conf-narrative">
+        Thank you for your order with CHÂN. Your pair has been assigned for quality inspection and priority courier dispatch. Tracking coordinates will be sent to your email.
+      </p>
+      <div class="conf-details-box">
+        <div class="conf-row">
+          <span>Amount Paid:</span>
+          <strong id="orderTotalPaid">$0.00</strong>
+        </div>
+        <div class="conf-row">
+          <span>Courier:</span>
+          <span>Express Air (2 to 4 Business Days)</span>
+        </div>
+      </div>
+      <button class="btn btn-black full-width" id="closeConfirmationBtn">CONTINUE SHOPPING</button>
+    </div>
+  </div>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div class="editorial-modal-backdrop" id="privacyModal">
+    <div class="editorial-modal-card policy-modal">
+      <button class="modal-exit-btn" id="closePrivacyBtn" aria-label="Close">×</button>
+      <h2 class="modal-product-title">Privacy Policy</h2>
+      <div class="policy-scroll">
+        <p><strong>Effective Date: Spring 2026</strong></p>
+        <p>At CHÂN Footwear Atelier, client privacy and trust are paramount. This policy details our data practices.</p>
+        <h4>1. Information Collection</h4>
+        <p>We collect essential order information (name, address, payment token, and email) solely to process orders, facilitate courier tracking, and deliver client support.</p>
+        <h4>2. Data Integrity & Security</h4>
+        <p>All sensitive checkout transmissions are protected with end-to-end 256-bit encryption. We never sell, lease, or monetize client records to advertising networks.</p>
+        <h4>3. Cookies and Analytics</h4>
+        <p>We use functional local storage tokens to preserve your shopping bag and wishlist items across browsing sessions.</p>
+      </div>
+      <button class="btn btn-outline full-width" id="acceptPrivacyBtn">CLOSE</button>
+    </div>
+  </div>
+
+  <!-- TERMS & CONDITIONS MODAL -->
+  <div class="editorial-modal-backdrop" id="termsModal">
+    <div class="editorial-modal-card policy-modal">
+      <button class="modal-exit-btn" id="closeTermsBtn" aria-label="Close">×</button>
+      <h2 class="modal-product-title">Terms & Conditions</h2>
+      <div class="policy-scroll">
+        <p><strong>Effective Date: Spring 2026</strong></p>
+        <p>By purchasing from CHÂN, you agree to our standard atelier conditions.</p>
+        <h4>1. Orders & Pricing</h4>
+        <p>All orders are subject to stock confirmation. Prices are quoted in USD. We reserve the right to correct typographical pricing discrepancies.</p>
+        <h4>2. 30-Day Wear-Test Guarantee</h4>
+        <p>You may wear and test your footwear outdoors. If not entirely satisfied, initiate a return within 30 calendar days for a 100% refund.</p>
+        <h4>3. Limited Atelier Warranty</h4>
+        <p>Every pair carries a 6-month defect replacement warranty covering sole delamination, stitch integrity, and composite plate bonds.</p>
+      </div>
+      <button class="btn btn-outline full-width" id="acceptTermsBtn">CLOSE</button>
+    </div>
+  </div>
+
+  <!-- MINIMAL TOAST SHELF -->
+  <div class="editorial-toast-shelf" id="toastShelf" aria-live="polite"></div>
+
+  <!-- EDITORIAL FOOTER -->
+  <footer class="editorial-footer">
+    <div class="footer-inner">
+      <div class="footer-layout">
+        <!-- Col 1 -->
+        <div class="footer-brand-unit">
+          <span class="brand-monogram">CHÂN</span>
+          <span class="brand-subline">CONTEMPORARY FOOTWEAR ATELIER</span>
+          <p class="footer-summary">
+            Architectural footwear silhouettes engineered for competitive running, urban commute, and formal occasions.
+          </p>
+          <div class="footer-contacts">
+            <span>Atelier Inquiries: concierge@chanfootwear.com</span>
+            <span>Studio Hours: Monday to Friday, 9:00 - 18:00 EST</span>
+            <div class="footer-mini-socials">
+              <a href="https://www.instagram.com/s_chandan_kumar1" target="_blank" rel="noopener noreferrer" class="mini-social-link" title="Follow Chandan Kumar on Instagram" aria-label="Instagram">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/chandan-kumar-shah-6b1636322/" target="_blank" rel="noopener noreferrer" class="mini-social-link" title="Connect with Chandan Kumar Shah on LinkedIn" aria-label="LinkedIn">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="https://wa.me/918125801743" target="_blank" rel="noopener noreferrer" class="mini-social-link" title="Chat on WhatsApp (+91 81258 01743)" aria-label="WhatsApp">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/share/1aVraKjvVM/" target="_blank" rel="noopener noreferrer" class="mini-social-link" title="Follow Chandan Kumar Shah on Facebook" aria-label="Facebook">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="footer-col-unit">
+          <span class="footer-col-title">ARCHIVE</span>
+          <ul class="footer-col-menu">
+            <li><a href="#catalog" data-filter-nav="all">All Silhouettes</a></li>
+            <li><a href="#catalog" data-filter-nav="running">Running Series</a></li>
+            <li><a href="#catalog" data-filter-nav="street">Lifestyle & Low-Top</a></li>
+            <li><a href="#catalog" data-filter-nav="formal">Formal Leather</a></li>
+            <li><a href="#catalog" data-filter-nav="art">Limited Editions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="footer-col-unit">
+          <span class="footer-col-title">CLIENT CARE</span>
+          <ul class="footer-col-menu">
+            <li><a href="#sizeguide">Size and Measurement Guide</a></li>
+            <li><a href="#returns" id="footerReturnsLink">Shipping and Transit Times</a></li>
+            <li><a href="#returns" id="footerReturnsPolicyLink">30-Day Return Protocol</a></li>
+            <li><a href="#help" id="footerFaqLink">Frequently Asked Questions</a></li>
+            <li><a href="#about">Studio Philosophy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4 -->
+        <div class="footer-col-unit">
+          <span class="footer-col-title">LEGAL</span>
+          <ul class="footer-col-menu">
+            <li><button class="footer-text-btn" id="openPrivacyBtn">Privacy Policy</button></li>
+            <li><button class="footer-text-btn" id="openTermsBtn">Terms and Conditions</button></li>
+            <li><span class="footer-muted-note">Currency: USD ($)</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DIRECT CHANNELS & SOCIAL MEDIA CARDS STRIP -->
+      <div class="footer-social-strip">
+        <div class="footer-social-header">
+          <div class="social-header-text">
+            <span class="social-strip-title">CONNECT WITH US & DIRECT CHANNELS</span>
+            <p class="social-strip-subtitle">Reach our team directly for sizing consultations, concierge orders, and collection previews.</p>
+          </div>
+          <div class="social-status-indicator">
+            <span class="pulse-indicator"></span>
+            <span>DIRECT ATELIER SUPPORT ONLINE</span>
+          </div>
+        </div>
+
+        <div class="footer-social-grid">
+          <!-- WhatsApp with Logo -->
+          <a href="https://wa.me/918125801743" target="_blank" rel="noopener noreferrer" class="social-card-pill whatsapp-card" id="footerWhatsAppCard" title="Chat with Chandan Kumar Shah on WhatsApp">
+            <div class="social-card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <span class="card-network-tag">WHATSAPP NUMBER</span>
+              <strong class="card-network-title">+91 81258 01743</strong>
+              <span class="card-network-action">Click to chat instantly →</span>
+            </div>
+          </a>
+
+          <!-- Instagram with Logo -->
+          <a href="https://www.instagram.com/s_chandan_kumar1" target="_blank" rel="noopener noreferrer" class="social-card-pill instagram-card" id="footerInstagramCard" title="Follow Chandan Kumar on Instagram">
+            <div class="social-card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <span class="card-network-tag">INSTAGRAM ACCOUNT</span>
+              <strong class="card-network-title">@s_chandan_kumar1</strong>
+              <span class="card-network-action">Follow collection drops →</span>
+            </div>
+          </a>
+
+          <!-- LinkedIn with Logo -->
+          <a href="https://www.linkedin.com/in/chandan-kumar-shah-6b1636322/" target="_blank" rel="noopener noreferrer" class="social-card-pill linkedin-card" id="footerLinkedInCard" title="Connect with Chandan Kumar Shah on LinkedIn">
+            <div class="social-card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <span class="card-network-tag">LINKEDIN PROFILE</span>
+              <strong class="card-network-title">Chandan Kumar Shah</strong>
+              <span class="card-network-action">Connect professionally →</span>
+            </div>
+          </a>
+
+          <!-- Facebook with Logo -->
+          <a href="https://www.facebook.com/share/1aVraKjvVM/" target="_blank" rel="noopener noreferrer" class="social-card-pill facebook-card" id="footerFacebookCard" title="Follow Chandan Kumar Shah on Facebook">
+            <div class="social-card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <span class="card-network-tag">FACEBOOK PROFILE</span>
+              <strong class="card-network-title">Chandan Kumar Shah</strong>
+              <span class="card-network-action">Visit profile →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-closing-bar">
+        <span class="footer-copy">© 2026 CHÂN FOOTWEAR ATELIER. ALL RIGHTS RESERVED.</span>
+        <div class="payment-types">
+          <span class="pay-cell">VISA</span>
+          <span class="pay-cell">MASTERCARD</span>
+          <span class="pay-cell">AMEX</span>
+          <span class="pay-cell">APPLE PAY</span>
+          <span class="pay-cell">PAYPAL</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=20261004_1850"></script>
+</body>
+</html>
